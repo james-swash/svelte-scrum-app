@@ -1,12 +1,14 @@
-<script lang="typescript">
-	export let name: string = "world"; 
-	
+<script>
+  import { Button } from 'svelma'
+  import Person from './components/person/person.svelte'
 </script>
 
 <style>
-	h1 {
-		color: purple;
-	}
+p {
+	background-color: #00d1b2;
+    border-color: transparent;
+    color: #fff;
+}
 </style>
-
-<h1>Hello {name}!</h1>
+<Button type="is-primary" inverted>I am a Button</Button>
+<Person/>
