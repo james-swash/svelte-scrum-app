@@ -7,9 +7,6 @@ import { terser } from 'rollup-plugin-terser';
 import { preprocess } from "svelte-ts-preprocess";
 
 const production = !process.env.ROLLUP_WATCH;
-module.exports = {
-	preprocess: preprocess()
-  }
 
 export default {
 	input: 'src/main.js',
