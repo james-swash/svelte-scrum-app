@@ -7,10 +7,11 @@
     "rollup-plugin-commonjs": "^9.3.4",
     "rollup-plugin-livereload": "^1.0.0",
     "rollup-plugin-node-resolve": "^4.2.3",
+    "rollup-plugin-postcss": "^2.0.3",
     "rollup-plugin-svelte": "^5.0.3",
     "rollup-plugin-terser": "^4.0.4",
     "sirv-cli": "^0.4.0",
-    "svelte": "^3.0.0"
+    "svelte": "3.5.1"
   },
   "scripts": {
     "build": "rollup -c",
@@ -22,6 +23,7 @@
   "dependencies": {
     "bulma": "^0.7.5",
     "svelma": "0.0.8",
+    "svelte-preprocess": "^2.12.0",
     "svelte-ts-preprocess": "^1.1.3",
     "typescript": "^3.5.1"
   }
