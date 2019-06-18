@@ -5,9 +5,8 @@
 </script>
 
 
-<Field label="Name">
-  <Input type="text" bind:value={name} placeholder="Text input" />
-</Field>
+<input type="text" bind:value={name} placeholder="Text input" />
+
 
 <Field label="Textarea"> 
   <Input type="textarea" maxlength="200" />
